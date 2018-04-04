@@ -99,7 +99,6 @@ mat2=hilbertMaker(15)
 b = np.array([[1], [4], [8]])
 sys1.myInverse()
 
-print(multiply(np.array(mat2).tolist(), sys1.inv))
 print(multiply(inverse, hilbertMaker(15)))
 
 
